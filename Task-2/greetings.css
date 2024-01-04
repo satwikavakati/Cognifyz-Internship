@@ -1,0 +1,10 @@
+*{
+    background-color: cornsilk;
+    text-align: center   ;
+}
+button{
+    padding: 5px;
+    background-color: aqua;
+    color: plum;
+    border-radius: 10px;
+}

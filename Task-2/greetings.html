@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Greeting Page</title>
+        <link rel="stylesheet" href="greetings.css">
+    </head>
+    <body>
+        <h1>Alert Box</h1>
+        <button id="button" onclick="Greetings()">Greetings For You</button>
+        <script>
+            function Greetings(){
+                var time=new Date();
+                var hours=time.getHours();
+                console.log(hours);
+                if(hours < 12) {
+                    alert("Good Morning Start your day with smile!");
+                }else if(hours >= 12 && hours<= 17){
+                    alert("Good Afternoon Enjoy ur day");
+                }else if(hours >=17 && hours<=22){
+                    alert("Good Evening Have Great Day!");
+                }else {
+                    alert("Good Night Have a Great sleep with Peace of Mind")
+                }
+            }
+        </script>
+    </body>
+</html>

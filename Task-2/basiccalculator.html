@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <title>Basic Calculator</title>
+    <head>
+        <link rel="stylesheet" href="basiccalculator.css">
+    </head>
+    <body>
+        <center>
+            <h1>Basic Calculator</h1>
+            <input id="one" placeholder="Enter Number One"/>
+            <input id="two" placeholder="Enter Number Two"/>
+            <button id="button" onclick="add()">ADD</button>
+            <p id="result">Display the result</p>
+        </center>
+        <script>
+            function add(){
+            var num1= document.getElementById("one")
+            var num2= document.getElementById("two")
+            var result= document.getElementById("result")
+            var n1=num1.value
+            var n2=num2.value
+            var total=Number(n1)+Number(n2)
+            result.textContent="result: " + total
+            }
+        </script>
+    </body>
+</html>

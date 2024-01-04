@@ -1,0 +1,15 @@
+*{
+    background-color: bisque;
+    text-align: center;
+}
+#button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: pink;
+    color: black;
+    border-radius: 15%;
+    cursor: pointer;
+}
+#button.clicked{
+    background-color: blue;
+}

@@ -1,0 +1,14 @@
+*{
+    background-color: antiquewhite;
+}
+button{
+    margin: center 60%;
+    text-align: center;
+    color: azure;
+    background-color: darkmagenta;
+    border-radius: 30px;
+}
+p{
+    text-align: center;
+    font-size: larger;
+}

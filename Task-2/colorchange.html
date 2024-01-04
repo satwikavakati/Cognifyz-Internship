@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color change of button</title>
+        <link rel="stylesheet" href="colorchange.css">
+    </head>
+    <body>
+        <button id="button">Click Me I will change the color</button>
+        <script>
+            const button=document.getElementById('button');
+            button.addEventListener('click', function(){
+                button.classList.toggle('clicked');
+            });
+        </script>
+    </body>
+</html>
