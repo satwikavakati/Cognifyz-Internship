@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallery</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1>ART GALLERY</h1>
+        <div class="gallery-container">
+                <img src="image 1.jpeg" alt="image1" class="art-image i1" onclick="openImage(this)"/>
+                <img src="image 2.jpeg" alt="image2" class="art-image i2" onclick="openImage(this)"/>
+                <img src="image 3.jpeg" alt="image3" class="art-image i3" onclick="openImage(this)"/>
+                <img src="image 4.jpeg" alt="image4" class="art-image i4" onclick="openImage(this)"/>
+                <img src="image 5.jpeg" alt="image5" class="art-image i5" onclick="openImage(this)"/>
+                <img src="image 6.jpeg" alt="image6" class="art-image i6" onclick="openImage(this)"/>
+                <img src="image 7.jpeg" alt="image7" class="art-image i7" onclick="openImage(this)"/>
+                <img src="image 8.jpeg" alt="image8" class="art-image i8" onclick="openImage(this)"/>
+            </div>
+            <div class="popup-container" id="image-container">
+                <div class="popup-content" id="imagediv">
+
+                <span class="close" onclick="closeImage()">&times;</span>
+                <img src="" alt="" id="imagepopup" class="imagepopup">
+            </div>
+            
+        </div>
+<script src="script.js"></script>
+    </body>
+</html>

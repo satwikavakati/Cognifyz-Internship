@@ -1,0 +1,134 @@
+*{
+    background-color: aliceblue;
+}
+
+ h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: inherit;
+    color: crimson;
+}
+.i1{
+    border-radius: 10px;
+    margin-left: 50px;
+    width: 20%;
+    margin-top: 40px;
+    cursor: pointer;
+    height: 250px;
+}
+.i1:hover{
+    transform: scale(1.01);
+    background-color: black;
+}
+.i2{
+    border-radius: 10px;
+    height: 250px;
+    margin-left: 50px;
+    width: 20%;
+    cursor: pointer;
+}
+.i2:hover{
+    transform: scale(1.01);
+}
+.i3{
+    border-radius: 10px;
+    height: 250px;
+    margin-left: 50px;
+    width: 20%;
+    cursor: pointer;  
+}
+.i3:hover{
+    transform: scale(1.01);
+}
+.i4{
+border-radius: 10px;
+    height: 250px;
+    margin-left: 50px;
+    width: 20%;
+    cursor: pointer;
+}
+.i4:hover{
+    transform: scale(1.01);
+}
+.i5{
+    border-radius: 10px;
+    height: 250px;
+    margin-left: 50px;
+    width: 20%;
+    cursor: pointer;
+}
+.i5:hover{
+    transform: scale(1.01);
+}
+.i6{
+    border-radius: 10px;
+    height: 250px;
+    margin-left: 50px;
+    width: 20%;
+    cursor: pointer;
+}
+.i6:hover{
+    transform: scale(1.01);
+}
+.i7{
+    border-radius: 10px;
+    height: 250px;
+    margin-left: 50px;
+    width: 20%;
+    cursor: pointer;
+}
+.i7:hover{
+    transform: scale(1.01);
+}
+.i8{
+    
+        border-radius: 10px;
+        height: 250px;
+        margin-left: 50px;
+        width: 20%;
+        cursor: pointer;
+}
+.i8:hover{
+    transform: scale(1.01);
+}
+.popup-container{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    display: none;
+    z-index: 1;
+}
+.close{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.imagepopup{
+    max-width: 80%;
+    max-height: 80vh;
+}
+.popup-content{
+    width:90%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    padding: 20px;
+}
+@media screen and(max-width:768px){
+    art-image{
+        width: 100%;
+        margin-left: 0;
+    }
+}
